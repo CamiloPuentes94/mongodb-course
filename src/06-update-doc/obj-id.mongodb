@@ -1,0 +1,13 @@
+use("platzi_store")
+
+db.products.updateOne(
+  {
+    _id: "65ca4af345da66924169a8cb"
+  },
+  {
+    $inc: {
+      price: 100,
+    }
+  }
+)
+
